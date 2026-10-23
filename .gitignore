@@ -1,0 +1,20 @@
+# Python 虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE 本地配置
+.idea/
+.vscode/
+
+# 本地环境变量和密钥文件
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 临时实验输出
+smoke_*/
+font_check*/
